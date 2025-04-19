@@ -110,7 +110,6 @@
     transition-duration: 0.3s;
 }
 li {
-    word-break: break-word;
     transition: transform 0.2s ease;
   }
   
@@ -126,7 +125,6 @@ li::marker{
     -webkit-transform: scale(1.002);
     transform: scale(1.002);
 }
-
 
 
 
@@ -147,7 +145,7 @@ li::marker{
     transition-duration: 0.3s;
 }
 .step3 ,.query1, .query2, .query3, .dependencies{
-    font-family: poppins
+    font-family: poppins;
     background: #5e5e5e;
     margin: 10px 20px;
     padding: 20px auto;
@@ -255,7 +253,18 @@ li::marker{
     margin: 50px 50px;
 }
 
+.finishWork h1 {
+    color: #bec0c2;
+    position: relative;
+    margin: 15px 5px;
+    width: max-content;
+    white-space: normal;
+    word-break: break-word;
+    max-width: 100%
+}
+
 .finishWork{
     margin: 10px 20px;
     padding: 20px;
+    box-sizing: border-box;
 }
