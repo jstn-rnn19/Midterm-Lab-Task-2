@@ -120,7 +120,7 @@ li::marker{
     color: #cdd1eb;
     font-size: clamp(0.8rem, 1.5vw, 1.4rem);
 }
-.list:hover, ul:hover, .finishWork:hover{
+.list:hover, ul:hover, .raw_data:hover, .Normalized:hover, .model:hover, .img1:hover{
     box-shadow: 0 0 20px #ababab;
     -webkit-transform: scale(1.002);
     transform: scale(1.002);
