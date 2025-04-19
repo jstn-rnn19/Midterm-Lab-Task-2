@@ -120,11 +120,12 @@ li::marker{
     color: #cdd1eb;
     font-size: clamp(0.8rem, 1.5vw, 1.4rem);
 }
-.list:hover, ul:hover, .raw_data:hover, .Normalized:hover, .model:hover{
+.list:hover, ul:hover, .finishWork:hover{
     box-shadow: 0 0 20px #ababab;
     -webkit-transform: scale(1.002);
     transform: scale(1.002);
 }
+
 
 
 
@@ -145,7 +146,7 @@ li::marker{
     transition-duration: 0.3s;
 }
 .step3 ,.query1, .query2, .query3, .dependencies{
-
+    font-family: poppins
     background: #5e5e5e;
     margin: 10px 20px;
     padding: 20px auto;
