@@ -1,0 +1,180 @@
+root {
+    --border-gray: #747474;
+    --blur-bg: linear-gradient(135deg, rgba(94, 94, 94, 0.1), rgba(94, 94, 94, 0));
+}
+
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #0b1215;
+    padding: 20px;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    width: max-content;
+}
+p {
+    font-size: clamp(1rem, 1vw, 1rem);
+}
+a {
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(244, 244, 244);
+    font-family: poppins;
+    font-size: clamp(1.25rem, 2vw, 1rem);
+
+}
+
+
+
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    color: rgb(244, 244, 244);
+    font-family: poppins;
+    font-size: 28px;
+    margin: 30px 50px;
+}
+.taskDescrip {
+    display: flex;
+    flex-direction: column;
+    color: rgb(244, 244, 244);
+    font-family: poppins;
+    font-size: 28px;
+    margin: 30px 50px;
+}
+.disscrip {
+    display: flex;
+
+}
+.step1{
+    display: flex;
+    flex-direction: column;
+    color: rgb(244, 244, 244);
+    font-family: poppins;
+    font-size: clamp(1rem, 2vw, 2rem);
+    margin: 30px 50px;
+}
+
+
+.step2, .step2_1 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(244, 244, 244);
+    font-family: poppins;
+    font-size: 28px;
+    margin: 30px 50px;
+}
+
+
+
+.step3{
+    display: flex;
+    flex-direction: column;
+    color: rgb(244, 244, 244);
+    font-family: poppins;
+    font-size: 28px;
+    margin: 30px 50px;
+}
+
+.step4{
+    display: flex;
+    flex-direction: column;
+    color: rgb(244, 244, 244);
+    font-family: poppins;
+    font-size: 28px;
+    margin: 30px 50px;
+}
+.datamodel {
+    display: flex;
+    flex-direction: column;
+    color: rgb(244, 244, 244);
+    font-family: poppins;
+    font-size: 28px;
+    margin: 30px 50px;
+}
+
+.finishWork {
+    display: flex;
+    flex-direction: column;
+    color: rgb(244, 244, 244);
+    font-family: poppins;
+    font-size: 28px;
+    margin: 30px 50px;
+}
+
+@media (max-width: 320px) {
+    .projectOver, .taskTitle, .step2Title,.step2_1Title, .step3Title, .step4Title, .query1_title, .query2_title,
+    .quer3_title, .dependencies_title, .finishWork h1{
+        font-size: 1.2rem;
+    }
+    .descrip p, .list li, li, ol {
+        font-size: .7rem;
+    }
+    .list, ul{
+        word-break: break-all;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: .8rem;
+    }
+    ol  {
+        padding-left: 20px;
+    }
+    .finishWork a {
+        font-size: .8rem;
+    }
+}
+@media (max-width: 380px) {
+    .projectOver, .taskTitle, .step2Title,.step2_1Title, .step3Title, .step4Title, .query1_title, .query2_title,
+    .quer3_title, .dependencies_title, .finishWork h1{
+        font-size: 1.2rem;
+    }
+    .descrip p, .list li, li, ol {
+        font-size: .7rem;
+    }
+    .list, ul{
+        word-break: break-all;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: .8rem;
+    }
+    ol  {
+        padding-left: 20px;
+    }
+    .finishWork a {
+        font-size: .8rem;
+    }
+}
+@media (max-width: 430px) {
+    .projectOver, .taskTitle, .step2Title,.step2_1Title, .step3Title, .step4Title, .query1_title, .query2_title,
+    .quer3_title, .dependencies_title, .finishWork h1{
+        font-size: 1.2rem;
+    }
+    .descrip p, .list li, li, ol {
+        font-size: .7rem;
+    }
+    .list, ul{
+        word-break: break-all;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: .8rem;
+    }
+    ol  {
+        padding-left: 20px;
+    }
+    .finishWork a {
+        font-size: .8rem;
+    }
+}
